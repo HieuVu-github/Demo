@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  height: 100%;
+  overflow-x: hidden;
+}
+#mainNav {
+  background-color: #ede2b5;
+}
+
+a.nav-link {
+  color: #716c53;
+  transition: all 0.6s;
+}
+
+a.nav-link > img {
+  max-width: 20px;
+  height: auto;
+}
+
+a.navbar-brand > img {
+  display: inline;
+  max-height: 30px;
+  width: auto;
+}
+a.nav-link:hover {
+  background-color: #716c53;
+  color: #fff;
+}
+h2 {
+  cursor: pointer;
+}
+/* ======== Group 1========== */
+
+header {
+  position: relative;
+}
+
+header h1 {
+  color: #716c53;
+  font-size: 6em;
+  width: 540px;
+  font-weight: bold;
+}
+
+header p {
+  color: #716c53;
+  width: 670px;
+  font-size: 2em;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+header div.discount {
+  left: 5%;
+  top: 25%;
+  position: absolute;
+}
+
+div.discount > h2 {
+  color: white;
+  width: 322px;
+  height: 65px;
+  background-color: #716c53;
+  border-radius: 4px;
+  justify-content: center;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+}
+
+/* ======== Group 2========== */
+
+.class2 {
+  background: url(image/background_2.png);
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.group2 {
+  background: url(image/Design.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.header2 {
+  text-align: center;
+  color: #716c53;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+div.header2 p {
+  font-weight: normal;
+  font-size: 2em;
+  width: 750px;
+  display: block;
+}
+
+div.d-flex {
+  padding: 10px;
+}
+
+.three-group {
+  margin: auto 100px;
+}
+div.founder h2 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 2.5em;
+  color: #716c53;
+  font-weight: bold;
+}
+div.founder p {
+  text-align: center;
+  margin-top: 10px;
+  color: #716c53;
+  font-size: 1.2em;
+}
+
+/* ======== Group 3========== */
+
+.class3 {
+  background: url(image/background_3.png);
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.group3 {
+  background: url(image/class3.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.group3 > img {
+  width: 1px;
+  height: auto;
+}
+div.middle {
+  position: relative;
+  width: 60%;
+  padding-left: 30px;
+}
+div.discount1 {
+  padding-left: 40px;
+  width: 650px;
+  position: absolute;
+  top: 10%;
+}
+div.discount1 > p {
+  color: #716c53;
+  font-size: 1.7em;
+  padding-bottom: 50px;
+}
+div.discount1 > h1 {
+  color: #716c53;
+  font-weight: bold;
+  font-size: 5em;
+}
+div.discount1 > h2 {
+  color: white;
+  width: 322px;
+  height: 65px;
+  background-color: #716c53;
+  border-radius: 4px;
+  justify-content: center;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+}
+
+/* ======== Group 4========== */
+
+.class4 {
+  background: url(image/background_4.png);
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.group4 {
+  background: url(image/img4.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.discount4 {
+  padding-left: 140px;
+  width: 650px;
+}
+div.discount4 > p {
+  color: #716c53;
+  font-size: 1.7em;
+  padding-bottom: 50px;
+}
+div.discount4 > h1 {
+  color: #716c53;
+  font-weight: bold;
+  font-size: 5em;
+}
+div.discount4 > h2 {
+  color: white;
+  width: 322px;
+  height: 65px;
+  background-color: #716c53;
+  border-radius: 4px;
+  justify-content: center;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+}
+/* ======== Group 5========== */
+
+.class5 {
+  background: url(image/background_5.png);
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.group5 {
+  background: url(image/img5.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.circle {
+  height: 300px;
+  width: 300px;
+  display: grid;
+  text-align: center;
+  align-content: center;
+  border: 7px dashed #716c53;
+  border-radius: 50%;
+  font-size: 2em;
+  color: #716c53;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+div.circle span {
+    font-size: 3em;
+}
+
+/* ======== Group 6========== */
+.class6 {
+  background: url(image/background_5.png);
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.group6 {
+  background: url(image/img5.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.package {
+  width: 280px;
+  background-color: #f5f1e4; 
+}
+h2.order {
+  color: white;
+  width: 280px;
+  height: 65px;
+  background-color: #716c53;
+  border-radius: 4px;
+  justify-content: center;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+}
+
+/* ======== Group 7 =========== */
+
+.class7 {
+  background: url(image/boy_1.png) no-repeat center center;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.group7 {
+  max-width: 60%;
+  transform: translateY(20%);
+}
+.group7 p {
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.group7 h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 700;
+}
+
+/* Footter */
+footer {
+  background-color: #333;
+}
+div.footer {
+  display: grid;
+  grid-template-columns: 46% 18% 18% 18%;
+  align-content: center;
+  height: 100vh;
+  grid-column-gap: 30px;
+}
+div.footer h3,
+p {
+  font-size: 25px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+div.footer > div ul {
+  display: grid;
+  grid-row-gap: 20px;
+}
+div.footer ul li {
+  list-style: none;
+}
+div.footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+div.footer ul li a:hover {
+    color: #716c53
+}
+div.title {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  padding-left: 30px;
+}
+
+/* Social Button */
+.social {
+  width: 400px;
+}
+.social a i {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f1f1f1;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  transition: 0.5s all;
+  line-height: 58px;
+  cursor: pointer;
+  background: #314652;
+  border-radius: 50%;
+}
+.social a i:hover {
+  transform: scale(1.5);
+}
+.social a i.fa-instagram:hover {
+  background-color: #e67e22;
+}
+.social a i.fa-facebook:hover {
+  background-color: #2980b9;
+}
+.social a i.fa-twitter:hover {
+  background-color: #3498db;
+}
+.social a i.fa-whatsapp:hover {
+  background-color: #27ae60;
+}
+/* Change Scroll */
+
+::-webkit-scrollbar {
+  width: 25px;
+  background-color: #333;
+  border: 1px solid #34495e;
+}
+::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ede2b5));
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25),
+    inset -2px -2px -2px rgba(0, 0, 0, 0.25);
+}
+.bg-ligth {
+  background-color: rgb(248, 249, 250);
+}
